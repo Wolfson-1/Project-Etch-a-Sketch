@@ -1,0 +1,32 @@
+.title {
+    display:flex;
+    justify-content: center;
+    font-size:30px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.sketchContainer {
+    width: 600px;
+    height:600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: solid;
+    border-color: red;
+    border-width: 8px;
+    border-radius:8px;
+}
+
+.sketchDivCol{
+display:flex;
+justify-content: center;
+background-color:gray;
+}
+
+.buttons {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
